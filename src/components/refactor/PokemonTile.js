@@ -39,7 +39,7 @@ const PokemonTile = ({ pokemon }) => {
   const classes = useStyles({ color: data?.color });
 
   return (
-    <Grid item xs={3} key={pokemon?.name}>
+    <Grid item  xs={12} md={6} lg={4} key={pokemon?.name}>
       <Card className={classes.container}>
         <CardContent>
           <CardHeader

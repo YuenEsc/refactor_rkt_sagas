@@ -81,7 +81,7 @@ const PokemonTile = ({ pokemon }) => {
   } = localState;
 
   return (
-    <Grid item xs={3} key={name}>
+    <Grid item  xs={12} md={6} lg={4} key={name}>
       <Card className={classes.container}>
         <CardContent>
           <CardHeader
